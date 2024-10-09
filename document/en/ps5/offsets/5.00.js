@@ -377,7 +377,7 @@ let syscall_map = {
 
 // Kernel stack offsets
 const OFFSET_KERNEL_STACK_COOKIE                = 0x00000930;
-const OFFSET_KERNEL_STACK_SYS_SCHED_YIELD_RET   = 0xDEADC0DE;
+const OFFSET_KERNEL_STACK_SYS_SCHED_YIELD_RET   = 0x00000808;
 
 // Kernel text-relative offsets
 const OFFSET_KERNEL_DATA                        = 0x00C50000;
